@@ -1,0 +1,47 @@
+ @import url('https://fonts.googleapis.com/css2?family=Electrolize&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* #navbar */
+nav {
+    font-family: 'Electrolize', sans-serif;
+}
+
+
+
+/* #gamebox */
+.gameContainer{
+    margin-top: 50px;
+}
+
+h1{
+    font-family: 'Electrolize', sans-serif;
+
+}
+.container{
+        display: grid;
+        grid-template-rows: repeat(3,10vw);
+        grid-template-columns: repeat(3,10vw);
+        font-family: 'Electrolize', sans-serif;
+        margin-left: 14vw;
+}
+
+.box{
+    display: flex;
+    border: 2px solid black;
+    font-size: 8vw;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.box:hover{
+    background-color: rgb(250, 206, 250);
+} 
+
+.imgbox{
+    width: 0px;
+    transition: width 1s ease-in-out;
+}
